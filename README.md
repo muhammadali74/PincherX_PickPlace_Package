@@ -23,4 +23,5 @@ This project is part of Robotics Lab Spring 2025.
 - [ ] Inverse Kinematics
 - [ ] Collision Avoidance
 - [ ] Path Planning
+- [ ] Language Grounding
 - [ ] To be added

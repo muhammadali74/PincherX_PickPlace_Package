@@ -1,5 +1,5 @@
 # PincherX_PickPlace_Package
-PincherX_PickPlace_Package is a pipeline designed to detect objects, pick them up, and place them in specified positions using a 4DOF Arbotic Pincher X Manipulator arm. This package is entirely coded from scratch without using high-level libraries.
+PincherX_PickPlace_Package is a pipeline designed to detect objects, pick them up, and place them in specified positions using a 4DOF Pincher X Manipulator arm. This package is entirely coded from scratch without using high-level libraries.
 
 Work Under Progress...
 
@@ -27,8 +27,8 @@ To be Added
 - [x] Robot configuration
 - [x] Forward Kinematics
 - [x] Rate Control
-- [ ] Inverse Kinematics
+- [x] Inverse Kinematics
 - [ ] Collision Avoidance
 - [ ] Path Planning
-- [ ] Language Grounding
 - [ ] To be added
+

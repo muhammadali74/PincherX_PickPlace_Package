@@ -77,15 +77,13 @@ function [ptCloud, color_frame, depth_frame, intrinsics, depth_scaling] = pointc
     color = fs.get_color_frame();    
     color_data = color.get_data();
     color_frame = permute(reshape(color_data',[3,color.get_width(),color.get_height()]),[3 2 1]);
-    figure;
-    imshow(color_frame)
 
     %% Create a point cloud using MATLAB library
     % Create a MATLAB intrinsics object
     intrinsics = cameraIntrinsics([depth_intrinsics.fx,depth_intrinsics.fy],[depth_intrinsics.ppx,depth_intrinsics.ppy],size(depth_frame));
     
     % % Create a point cloud
-    ptCloud = 0
+    ptCloud = 0;
     % ptCloud = pcfromdepth(depth_frame,1/depth_scaling,intrinsics,ColorImage=color_frame);
     % 
     % % Display point cloud

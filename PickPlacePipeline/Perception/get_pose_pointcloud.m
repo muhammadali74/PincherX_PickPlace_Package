@@ -1,5 +1,5 @@
 %%%%%%%%%FUNCTION TO ESTIMATE POSE OF AN OBJECT USING INTEL DEPTH CAM %%%
-function [labels, transforms] = get_objects()
+function [rgblabel,transforms] = whereizz()
 
     [xx, color_frame, depth_frame, intrinsics, depth_scaling] = pointcloud_example(); % get the color,depth frames and cam intrinsices from exmaple function.
     pointCloudd = pcread("cubefacemodel.ply"); % Model of cube face to be used by ICP
@@ -7,7 +7,7 @@ function [labels, transforms] = get_objects()
     % pointCloudd3 = pcread("cuboid.ply");
     % pointCloudd4 = pcread("facemodelnonlinear.ply");
 
-    [label, rgblabel, overlayimg, CC, labels] = segment_objects("None", "all", "intro to rob\bgfeb13.png", true, false, color_frame, depth_frame); % perform color segmentation (from last lab's pipeline) and return label for each identified object
+    [label, rgblabel, overlayimg, CC, labels] = segment_objects("None", "green", "bgfeb13.png", true, false, color_frame, depth_frame); % perform color segmentation (from last lab's pipeline) and return label for each identified object
     imshow(rgblabel);
 
     % Display extracted point cloud
@@ -23,8 +23,8 @@ function [labels, transforms] = get_objects()
         
      label = labels(:,:,box);
      rgblabel = label2rgb(label, "jet", "k", "noshuffle");
-     figure;
-     imshowpair(label, color_frame, "montage");
+     % figure;
+     % imshowpair(label, color_frame, "montage");
 
      
     
@@ -150,8 +150,8 @@ function [labels, transforms] = get_objects()
     end
     % imshow(clf);
 
-
 end
+
 
 
 

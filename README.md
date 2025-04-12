@@ -8,7 +8,12 @@ This project is part of Robotics Lab Spring 2025.
 
 ## Usage
 
-To be Added
+1. Open PickPlacePipeline folder
+### Simple Pick Place Execution
+1. Open PickPlace.mlx, input the pick, place points and hit run
+
+### Perception based object identification (Requires Intel depth camera)
+1. Open PickPlacePerception --> Input place location and run!
 
 ## Features
 

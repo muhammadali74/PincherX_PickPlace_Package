@@ -2,7 +2,6 @@
 
 PincherX_PickPlace_Package is a pipeline designed to detect objects, pick them up, and place them in specified positions using a 4DOF Pincher X Manipulator arm. This package is entirely desigend and coded from scratch without using any kinematics / motion planning / control libraries or frameworks.
 
-Work Under Progress...
 
 This project is part of Robotics Lab Spring 2025.
 
@@ -39,10 +38,11 @@ This project is part of Robotics Lab Spring 2025.
 - [ ] Collision Avoidance
 - [X] Path Planning
 - [X] PickPlace pipeline
-- [ ] Bin Place
+- [X] Bin Place
 
 ## Tests
 
 - [Rate Control line following Test 01]()
 - [Pick Place Test 01](https://youtu.be/EYrFdB0laEY?feature=shared) 
-- [Pick Place Test 02](https://youtu.be/jQurTOjDS5M?si=o-e3RmH0QStOSSTE) 
+- [Pick Place Test 02](https://youtu.be/jQurTOjDS5M?si=o-e3RmH0QStOSSTE)
+- [Pipeline Execution](https://youtube.com/shorts/RyvSCiVWmow?si=RFqXScAhPhXi5GSY)

@@ -4,6 +4,9 @@ PincherX_PickPlace_Package is a pipeline designed to detect objects, pick them u
 
 <img width="1370" height="796" alt="image" src="https://github.com/user-attachments/assets/23afbeb9-16ff-4a44-9d2f-416c9a739b3a" />
 
+### State Flow
+<img width="1375" height="869" alt="image" src="https://github.com/user-attachments/assets/a9b57628-c91b-47bd-be97-0dfdf62ed16f" />
+
 
 This project is part of Robotics Lab Spring 2025.
 

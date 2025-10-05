@@ -2,6 +2,7 @@
 
 PincherX_PickPlace_Package is a pipeline designed to detect objects, pick them up, and place them in specified positions using a 4DOF Pincher X Manipulator arm. This package is entirely desigend and coded from scratch without using any kinematics / motion planning / control libraries or frameworks.
 
+[📄 View Project Report](https://github.com/muhammadali74/PincherX_PickPlace_Package/blob/master/ProjectReport.pdf)
 <img width="1370" height="796" alt="image" src="https://github.com/user-attachments/assets/23afbeb9-16ff-4a44-9d2f-416c9a739b3a" />
 
 ### State Flow
